@@ -23,6 +23,11 @@ Tools: Fetch API for authentication, React Context for state sharing, React Icon
 
 
 ## Getting Started
+
+Head over to the website -> https://van-life-chi-ivory.vercel.app
+
+Or manually run it:
+
 Install the dependencies and run the project
 ```
 npm install
