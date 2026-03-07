@@ -92,7 +92,6 @@ nav {
 
 main {
   flex: 1;
-  display: flex;
 }
 
 footer {
@@ -179,8 +178,7 @@ footer {
     border: none;
     width: max-content;
     margin: 27px auto 0 0;
-    padding-block: 0.75rem;
-    padding: 1.25rem;
+    padding: 14px 28px;
     color: white;
     font-weight: 700;
     border-radius: 25px;
@@ -337,7 +335,7 @@ i[class*="van-type-"] {
 }
 
 .van-detail-container {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -805,6 +803,18 @@ img.graph {
     nav {
         margin-top: 10px;
     }
+
+    @media (max-width: 600px) {
+
+    .van-detail img {
+        margin-block: 25px;
+    }
+
+    .van-detail h2 {
+        font-size: 1.6rem;
+    }
+
+}
 
 }
 
